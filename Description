@@ -1,0 +1,29 @@
+Note Taker project is made using Servlet,Jsp and Hibernate
+
+Internet must be ON
+File->New->Maven Project->Next
+Catelog->internal
+File-> (Artifact Id) maven.archetype.-webapp
+Group Id (similar like a package)
+Artifact Id (Project name)
+package
+Finish
+
+Right click on NoteTaker->Build Path->Configure Build Path->Add Library->Server Runtime
+
+Java Resource->src/main/resource->create hibernate.cfg.xml
+pom.xml->add hibernate and mysql dependencies
+Right click on NoteTaker->Maven->Update Project
+
+webapp- all webapp will come under this folder
+Java Resource->src/main/java->all java classes will come here
+Java Resource->src/main/resource-> resource will be here
+
+For index.jsp page===================>
+google for bootstrap .On first website go to get started and choose Starter Template
+
+For navbar.jsp======================>
+search for navbar on bootstrap
+
+all_css.jsp=========================>
+in this jsp we copy all the css and javascript so that we can include it whether we want
